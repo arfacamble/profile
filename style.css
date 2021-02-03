@@ -48,10 +48,6 @@ p {
   text-align: justify;
 }
 
-i {
-  font-size: xx-large;
-}
-
 .btn {
   margin: 10px;
   padding: 10px 20px;
@@ -65,7 +61,6 @@ i {
   border: 2px dotted #FCB97D;
   background-color: #252323;
   color: #FCB97D;
-
 }
 
 .card {
@@ -80,9 +75,19 @@ i {
   text-align: center;
 }
 
+/*i {
+  font-size: 1000px;
+}
+*/
 #social-links li {
   display: inline;
   margin: 0 30px;
+  font-size: 30px;
+}
+
+#social-links li:hover {
+  font-size: 40px;
+  color: #DA4167;
 }
 
 @media (max-width: 960px) {
