@@ -30,6 +30,8 @@ h1 {
   flex-wrap: wrap;
   margin: 0px auto;
   background-color: #081B6F;
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px #081B6F;
 }
 
 .heading {
@@ -49,12 +51,16 @@ p {
 }
 
 .btn {
-  margin: 10px;
+  text-align: center;
+  width: 100px;
+  display: block;
+  margin: 10px auto;
   padding: 10px 20px;
   border: 2px solid #252323;
   background-color: #FCB97D;
   color: #252323;
   border-radius: 8px;
+  font-size: 1.4em;
 }
 
 .btn:hover {
@@ -79,15 +85,19 @@ p {
   font-size: 1000px;
 }
 */
-#social-links li {
+li {
   display: inline;
-  margin: 0 30px;
-  font-size: 30px;
 }
 
-#social-links li:hover {
+#social-links a {
+  margin: 0 30px;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+#social-links a:hover {
   font-size: 40px;
-  color: #DA4167;
+  color: #65DEF1;
 }
 
 @media (max-width: 960px) {
